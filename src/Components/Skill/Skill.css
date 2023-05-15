@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.Section_Skill{
+    background-color: rgb(231, 234, 236);
+    height: 100%;
+    width: 100%;
+}
+.Section_SkillHeading{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+}
+
+
+.Section_SkillContentBoxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.flip_container{
+    width: 250px;
+    height: 280px;
+    padding: 30px;
+    perspective: 500px;
+}
+.flip_container:hover > .flip_card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.flip_card{
+    width: 100%;
+    height: 100%;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+
+.flip_front, .flip_back{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    backface-visibility: hidden;    
+}
+
+.html{
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../assets/HTML5.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+}
+.css{
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../assets/CSS3.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+}
+.bootstrap{
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../assets/bootstrap-stack.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+}
+.javascript{
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../assets/JavaScript-Logo.png);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+}
+.react{
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../assets/React-icon.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+
+.flip_back{
+    transform: rotateY(180deg);
+    background-color: #222222;
+    color: white;
+}
+.flip_back > h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.flip_back p{
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+
+
+@media (min-width: 1390px){
+
+    .Section_Skill{
+        background-color:rgb(231, 234, 236);
+        height: 100%;
+        width: 100%;
+    }
+    .flip_container{
+        width: 263px;
+        height: 350px;
+        padding: 30px;
+    }
+    .flip_back p{
+        text-align: center;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+   
+
+}
+
+
+
+@media (min-width: 523px){
+
+    .Section_Skill{
+        background-color:rgb(231, 234, 236);
+        height: 100%px;
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 992px){
+
+    .Section_Skill{
+        background-color:rgb(231, 234, 236);
+        height: 100%px;
+        width: 100%;
+        padding: 5rem;
+    }
+    
+}
+.bg-clr1{
+    background-image: linear-gradient(to left, #000000,rgb(51,86,86),rgb(51,86,86),black);
+
+
+}

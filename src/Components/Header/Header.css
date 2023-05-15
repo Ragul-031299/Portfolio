@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+
+.Section_Navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+/* ----------------------- */
+
+.Section_Navbrand{
+    color: white;
+    font-size: 30px;
+}
+.Section_Navbrand > span{
+    color: #BAC964;
+}
+
+.Section_Nav{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    }
+
+
+/* ----------------------- */
+.Section_Navlink{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.Section_Navlink:hover{
+    color: rgba(207, 211, 214, 0.577);
+}
+.Section_linkIcons{
+    padding: 3px;
+}
+
+.bg-clr{
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+@media (min-width: 992px){
+    .Section_Nav{
+    display: flex;
+    gap: 70px;
+    padding-right: 100px;
+    }
+
+
+
+}

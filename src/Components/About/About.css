@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.Section_About{
+    background-color: #222222;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.vv{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_box{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_left_outer{
+    height: 480px;
+}
+
+.content_right_outer{
+    height: 480px;
+}
+
+.image_left{
+    background-image: url('./../../assets/Remini20220524114717315-01-01.jpeg');
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    border-radius: 1.2rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.content_right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content_title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+}
+
+.content_content{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.content_button{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-clr{
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+  
+}
+.btn-outline{
+    background-image: linear-gradient(to bottom, #000000, #2d3436);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+    color: aquamarine;
+
+}
+
+
+@media (min-width: 992px){
+    .Section_About{
+        background-color: #222222;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+   
+}

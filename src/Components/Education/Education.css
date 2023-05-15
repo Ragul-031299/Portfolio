@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#bca{
+    color: rgb(153, 166, 65);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.edu{
+letter-spacing: 2px;
+}
+.bg-clr{
+    background-image: linear-gradient(to bottom, #000000, #2d3436,#000000);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+  
+}

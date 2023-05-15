@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
+.Section_Contact{
+    background-color: #222222;
+    height: 1200px;
+    width: 100%;  
+    overflow-x: hidden;  
+}
+.Section_Contact_title{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.Section_Contact_title > p > span {
+    font-weight: 800;
+}
+
+.Section_Contact_Box{
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Contact_Left{
+    height: 55%;
+}
+.Contact_right{
+    height: 40%;
+}
+
+.Contact_Left_Title{
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+.Contact_right_Title{
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.Contact_Left_Form{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.Contact_right_Details{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.send{
+    background-image: linear-gradient(to bottom, #000000, #2d3436);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+    color: aquamarine;
+}
+.Contact_Left_Form > input{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #404040;
+}
+.Contact_Left_Form > textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #404040;
+    color: white;
+}
+.Contact_Left_Form > div > input{
+    width: 160px;
+    padding: 10px;
+    border-radius: 30px;
+    /* color: white; */
+    background-color: #404040;
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+}
+.Contact_Left_Form > div > input:hover{
+    background-color: #BAC964;
+    color:#BAC964;
+    transition: 0.7s;
+}
+
+.Contact_right_Details > div > h6{
+    color: #BAC964;
+}
+
+
+.bg-clr{
+    background-image: linear-gradient(to bottom, #000000, #2d3436);
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+    .Section_Contact{
+        background-color: #222222;
+        height: 700px;
+        width: 100%;    
+    }
+    .Contact_Left{
+        height: 80%;
+    }
+    .Contact_right{
+        height: 80%;
+    }
+    .Section_Contact_title{
+        height: 15%;
+    }
+    .Section_Contact_Box{
+        height: 80%;
+    }
+}

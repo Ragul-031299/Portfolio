@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.formInputs{
+    width: 100%;
+}
+.formInputs p{
+    color: red;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid black;
+}
